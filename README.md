@@ -1,5 +1,5 @@
 # Use Turtlebot3 with SLAM approach to create and save a map
-
+![picture](Simulation.jpg)
 
 ## 1-Download-and-Install-Ubuntu-on-PC:
 ### 1.1 Download the proper `Ubuntu 20.04 LTS Desktop` image for your PC from the links below.
@@ -54,7 +54,7 @@ Three simulation environments are prepared for TurtleBot3. Please select one of 
 `$ export TURTLEBOT3_MODEL=waffle`<br/>
 `$ roslaunch turtlebot3_gazebo turtlebot3_world.launch`<br/>
 <br/>
-
+![picture](s1.jpg)
 
 
 ## 6-SLAM-Simulation:
@@ -66,7 +66,7 @@ Please use the proper keyword among `burger` , `waffle` , `waffle_pi` for the TU
 `$ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping`<br/>
 <br/>
 
-
+![picture](s2.jpg)
 
 ### 6.2 Run Teleoperation Node:
 Open a new terminal from Remote PC with `Ctrl` + `Alt` + `T` and run the teleoperation node from the Remote PC.<br/><br/>
@@ -76,13 +76,13 @@ Please use the proper keyword among `burger` , `waffle` , `waffle_pi` for the TU
 `$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`<br/>
 <br/>
 
-
+![picture](s3.jpg)
 
 ### 6.3 Save Map:
 When the map is created successfully, open a new terminal from Remote PC with `Ctrl` + `Alt` + `T` and save the map. <br/>
 <br/>
 
-
+![picture](s4.jpg)
 
 `$ rosrun map_server map_saver -f ~/map` <br/>
 <br/>
@@ -90,5 +90,6 @@ When the map is created successfully, open a new terminal from Remote PC with `C
 
 
 ## 7-Testing:
+![picture](testing.jpg)
 
 
