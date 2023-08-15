@@ -1,5 +1,5 @@
 # Use Turtlebot3 with SLAM approach to create and save a map
-![picture](Simulation.jpg)
+![picture](Simulation.GIF)
 
 ## 1-Download-and-Install-Ubuntu-on-PC:
 ### 1.1 Download the proper `Ubuntu 20.04 LTS Desktop` image for your PC from the links below.
@@ -90,6 +90,6 @@ When the map is created successfully, open a new terminal from Remote PC with `C
 
 
 ## 7-Testing:
-![picture](testing.jpg)
+![picture](testing.GIF)
 
 
